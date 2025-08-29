@@ -1,8 +1,36 @@
 {% extends "base.html" %}
 
-{% block title %} Home {% endblock title %}
-
+{% block title %}About{% endblock title %}
 
 {% block body %}
-<h1>About Us. </h1>
-{% endblock body  %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+
+            <div class="card shadow-lg border-0 rounded-3">
+                <div class="card-body p-4">
+                    <h1 class="card-title text-center mb-4">About Us</h1>
+                    <p class="lead text-center">
+                        Welcome to our website! We are dedicated to providing the best services 
+                        and ensuring customer satisfaction.
+                    </p>
+                    
+                    <hr>
+
+                    <h3 class="mt-4">🎯 Our Mission</h3>
+                    <p>
+                        To deliver high-quality solutions that make life easier and better for our customers.
+                    </p>
+
+                    <h3 class="mt-4">👨‍💻 Our Team</h3>
+                    <p>
+                        We are a passionate group of developers, designers, and support staff 
+                        who believe in teamwork and innovation.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock body %}
